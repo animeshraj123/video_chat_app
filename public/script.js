@@ -21,11 +21,11 @@ showChat.addEventListener("click", () => {
 
 const user = prompt("Enter your name");
 
-var peer = new Peer(undefined, {
-  path: "/peerjs",
-  host: "/",
-  port: "3030",
-});
+var peer = new Peer({
+                host: "avmood-chat-video.herokuapp.com",
+                port: "",
+                path: "/peerjs",
+              });
 
 let myVideoStream;
 navigator.mediaDevices
