@@ -45,10 +45,13 @@ navigator.mediaDevices
       });
     });
 
-    socket.on("user-connected", (userId) => {
-      connectToNewUser(userId, stream);
+   socket.on("user-connected", (userId) => {
+      setTimeout(() => {
+        // user joined
+        connectToNewUser(userId, stream)
+      }, 3000)
     });
-  });
+    });
 
 const connectToNewUser = (userId, stream) => {
   const call = peer.call(userId, stream);
