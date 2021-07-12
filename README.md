@@ -11,5 +11,7 @@
 - Simple and intuitive UI
 ## Tech-stack
 * HTML, CSS, JavaScript, NodeJS, Socket.io, Peerjs (WEBRTC).
+## Image
+![video_chat_app](https://github.com/animeshraj123/video_chat_app/blob/master/screen_shot.PNG)
 ## Developer
 > * Animesh Raj
