@@ -22,9 +22,9 @@ showChat.addEventListener("click", () => {
 const user = prompt("Enter your name");
 
 var peer = new Peer(undefined, {
-  secure: false, 
-  host: 'animeshraj123-video-chat-app.herokuapp.com/',
-  port: "443",
+  path: "/peerjs",
+  host: "/",
+  port: "3030",
 });
 
 let myVideoStream;
